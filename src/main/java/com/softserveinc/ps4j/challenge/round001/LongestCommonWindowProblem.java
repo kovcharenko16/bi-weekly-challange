@@ -1,5 +1,6 @@
 package com.softserveinc.ps4j.challenge.round001;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -10,7 +11,9 @@ import java.util.List;
 class LongestCommonWindowProblem {
 
     <T> List<T> solve(List<T> seq1, List<T> seq2) {
-        throw new UnsupportedOperationException("not yet implemented");
-    }
+        List<T> globalLongestList = new ArrayList<>();
+        List<T> currentLongestList= new ArrayList<>();
 
+       return new ArrayList<>();
+    }
 }
